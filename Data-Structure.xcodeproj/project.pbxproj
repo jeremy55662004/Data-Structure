@@ -6,6 +6,10 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		89B699591FED61AD00912131 /* quicksort.c in Sources */ = {isa = PBXBuildFile; fileRef = 89B699581FED61AD00912131 /* quicksort.c */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		89B6994B1FED0FAD00912131 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -21,6 +25,7 @@
 /* Begin PBXFileReference section */
 		89B6994D1FED0FAD00912131 /* Data-Structure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data-Structure"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B699571FED230000912131 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		89B699581FED61AD00912131 /* quicksort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = quicksort.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +59,7 @@
 		89B6994F1FED0FAD00912131 /* Data-Structure */ = {
 			isa = PBXGroup;
 			children = (
+				89B699581FED61AD00912131 /* quicksort.c */,
 			);
 			path = "Data-Structure";
 			sourceTree = "<group>";
@@ -115,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B699591FED61AD00912131 /* quicksort.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

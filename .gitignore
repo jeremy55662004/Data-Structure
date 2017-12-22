@@ -99,9 +99,9 @@ fastlane/test_output
 ### Xcode Patch ###
 xcuserdata/
 *.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-!*.xcworkspace/contents.xcworkspacedata
+＃!*.xcodeproj/project.pbxproj
+＃!*.xcodeproj/xcshareddata/
+＃!*.xcworkspace/contents.xcworkspacedata
 /*.gcno
 
 # End of https://www.gitignore.io/api/osx,xcode,swift

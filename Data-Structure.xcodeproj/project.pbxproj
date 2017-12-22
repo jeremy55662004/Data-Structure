@@ -42,9 +42,9 @@
 		89B699441FED0FAD00912131 = {
 			isa = PBXGroup;
 			children = (
-				89B699571FED230000912131 /* .gitignore */,
 				89B6994F1FED0FAD00912131 /* Data-Structure */,
 				89B6994E1FED0FAD00912131 /* Products */,
+				89B699571FED230000912131 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};

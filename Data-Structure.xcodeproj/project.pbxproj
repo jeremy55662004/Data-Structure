@@ -6,10 +6,6 @@
 	objectVersion = 48;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		89B699511FED0FAD00912131 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 89B699501FED0FAD00912131 /* main.c */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		89B6994B1FED0FAD00912131 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,7 +20,7 @@
 
 /* Begin PBXFileReference section */
 		89B6994D1FED0FAD00912131 /* Data-Structure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data-Structure"; sourceTree = BUILT_PRODUCTS_DIR; };
-		89B699501FED0FAD00912131 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		89B699571FED230000912131 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +37,7 @@
 		89B699441FED0FAD00912131 = {
 			isa = PBXGroup;
 			children = (
+				89B699571FED230000912131 /* .gitignore */,
 				89B6994F1FED0FAD00912131 /* Data-Structure */,
 				89B6994E1FED0FAD00912131 /* Products */,
 			);
@@ -57,7 +54,6 @@
 		89B6994F1FED0FAD00912131 /* Data-Structure */ = {
 			isa = PBXGroup;
 			children = (
-				89B699501FED0FAD00912131 /* main.c */,
 			);
 			path = "Data-Structure";
 			sourceTree = "<group>";
@@ -119,7 +115,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89B699511FED0FAD00912131 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
